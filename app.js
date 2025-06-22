@@ -13,6 +13,7 @@ var handlebars = require('hbs');
 
 // Bring in the database
 require('./app_api/models/db');
+require('dotenv').config();
 
 var app = express();
 
